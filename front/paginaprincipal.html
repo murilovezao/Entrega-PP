@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel=stylesheet href="principal.css">
+    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+            <h2>PROJETO 1</h2>
+        </div>
+        <div class="card-body">
+            <img class="imgbody" src="imagens/arqteste.avif">
+            <input type="color" id="corCaneta"> <!-- Seletor de cores -->
+            <div class="image-container">
+                <a href="#" onclick="adicionarComentario()"><img class="project-image" src="imagens/caixatext.png"></a>
+                <a href="#" onclick="ativarDesenho()"><img class="project-image" src="imagens/canetaicone.png"></a>
+                <a href="link_do_projeto_3"><img class="project-image" src="imagens/compartilhar.png"></a>
+                <a href="link_do_projeto_4"><img class="project-image" src="imagens/lixeira.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="canvas" width="400" height="400"></canvas>
+       
+
+    
+</body>
+</html>

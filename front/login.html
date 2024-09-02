@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <img class="fotocard" src="imagens/logo sem escrita.png">
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+            <label for="password">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" required>
+            <a href="esquecisenha.html" id="Esqueci">Esqueci minha senha</a>
+            <a href="criarconta.html" id="Criar">Quero criar minha conta!</a>
+            <button type="button" class="btn" id="login">ACESSAR</button>
+        </form>
+    </div>
+
+    <!-- Alertas -->
+    <div id="success-alert" class="alert success-alert">
+        <span class="closebtn" onclick="closeAlert('success-alert')">&times;</span>
+        <strong>Sucesso!</strong> Login realizado com sucesso.
+    </div>
+    
+    <div id="error-alert" class="alert error-alert">
+        <span class="closebtn" onclick="closeAlert('error-alert')">&times;</span>
+        <strong>Erro!</strong> Informações inválidas, tente novamente.
+    </div>
+</body>
+</html>
+

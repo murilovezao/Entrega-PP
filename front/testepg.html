@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="testepg.css">
+    <script src="testepg.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="card" id="photo">
+        <img src="./imagens/arqteste.avif" alt="Imagem" class="image">
+        <div class="buttons">
+            <button onclick="toggleComment()"><img src="./imagens/caixatext.png" alt="Botão 1"></button>
+            <button class="canvas-buttons" onclick="toggleCanvas()"><img src="./imagens/canetaicone.png" alt="Botão 2"></button>
+            <button onclick="toggleComment()"><img src="imagens/compartilhar.png" alt="Botão 3"></button>
+            <button onclick="handleButton4Click()"><img src="imagens/setasair.png" alt="Botão 4"></button>
+        </div>
+        <div id="comment-container">
+            <textarea id="comment-input" placeholder="Adicione um comentário"></textarea>
+            <button id="comment-submit" onclick="hideComment()">Ocultar Comentário</button>
+        </div>
+    </div>
+    <canvas id="myCanvas"></canvas>
+</body>
+</html>

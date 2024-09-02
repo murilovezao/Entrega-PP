@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047
+    
+}
+
+.fotocard{
+    display: flex;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #bcb5c8;
+    background: url("imagens/fundo\ login.png") center center/cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: color;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #255af7;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all linear 160ms;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin a:hover {
+    color: #255af7;
+}
+
+.btn {
+    background-color: #255af7;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0;
+    height: 5vh;
+    width: 29vh;
+    border-radius: 10px;
+    margin-left: 20%;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ffffff;
+
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336; /* Cor de fundo vermelha */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold; /* Negrito para o texto */
+    transition: background-color 0.3s, transform 0.2s;
+    z-index: 3; /* Garantir que o botão esteja sobre os outros elementos */
+}
+
+.close-button:hover {
+    background-color: #d32f2f; /* Cor de fundo vermelha mais escura ao passar o mouse */
+    transform: scale(1.20); /* Leve aumento de escala ao passar o mouse */
+}
+
+.close-button:focus {
+    outline: none; /* Remove o contorno padrão ao focar */
+}

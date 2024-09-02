@@ -1,0 +1,150 @@
+/* *{
+margin: 0;
+padding: 0;
+}
+
+.Titulo {
+    color: rgb(58, 58, 157);
+    font-style:italic;
+}
+
+.introduçao {
+    font-style: oblique;
+    }
+
+#arqfoto {
+    border: 10px solid #3e3e3e;
+    margin-top: 6vh;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+  margin-top: 0vh;
+}
+
+.Teste {
+  color: rgb(58, 58, 157);
+  font-style:italic;
+  margin-left: 15vh;
+}
+
+.teste2 {
+  font-style: oblique;
+  margin-left: 11vh;
+  }
+
+
+#icones{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  margin-top: 3vh;
+}
+
+footer {
+	background-color: white;
+	color: rgb(58, 58, 157);
+	padding: 20px;
+	text-align: center;
+	margin-top: 2vh;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: rgb(58, 58, 157);
+	text-decoration: none;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background: url("imagens/fundo\ login.png") center center/cover;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: color;
+}
+.card {
+  width: 400px;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ /* #icones{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  margin-top: 66vh;
+  margin-right: 2%;
+}  */
+
+.imgbody{
+  width: 39px;
+  border-radius: 2%;
+  margin-bottom:250px;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  width: 620px;
+  margin-top: 49%;
+  border-radius: 5%;
+}
+.card-body {
+  padding: 100px;
+  gap: 10vh;
+}
+.card-body p {
+  margin-bottom: 10px;
+  gap: 10vh;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image {
+  width: 31%;
+  height: 37px;
+  justify-content: center;
+  margin-left: 10%;
+  margin-bottom: 450%
+  cursor: pointer; /* Adiciona cursor de ponteiro para indicar clicabilidade */
+}
